@@ -7,5 +7,6 @@ namespace RoutingAndNavigation.Models
 {
 	public class Model
 	{
+		// No need for the model yet
 	}
 }
