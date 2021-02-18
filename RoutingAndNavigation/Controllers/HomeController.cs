@@ -11,13 +11,14 @@ namespace RoutingAndNavigation.Controllers
 {
 	public class HomeController : Controller
 	{
+		// Attribute Routes
 
+		[Route("/")]
 		public IActionResult Index()
 		{
 			return View();
 		}
-
-		public IActionResult Privacy()
+		public IActionResult About()
 		{
 			return View();
 		}
