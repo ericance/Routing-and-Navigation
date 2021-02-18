@@ -37,14 +37,6 @@ namespace RoutingAndNavigation
 					pattern: "Admin/{controller=Home}/{action=Index}/{id?}");
 
 				endpoints.MapControllerRoute(
-					name: "paging_and_sorting",
-					pattern: "{controller}/{action}/{id}/page{page}/sort-by-{sortby}");
-
-				endpoints.MapControllerRoute(
-					name: "paging",
-					pattern: "{controller}/{action}/{id}/page{page}");
-
-				endpoints.MapControllerRoute(
 					name: "default",
 					pattern: "{controller=Home}/{action=Index}/{id?}");
 			});
